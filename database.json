@@ -1,0 +1,138 @@
+{
+  "departments": [
+    {
+      "id": "1",
+      "name": "Integrated System"
+    },
+    {
+      "id": "2",
+      "name": "Software"
+    },
+    {
+      "id": "3",
+      "name": "Information Assurance"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "Tran Bao Han",
+      "dob": "1980-09-12",
+      "gender": "Male",
+      "position": "Developer",
+      "department": "1"
+    },
+    {
+      "id": "2",
+      "name": "Quach Phu Thanh",
+      "dob": "1987-01-19",
+      "gender": "Female",
+      "position": "Developer",
+      "department": "2"
+    },
+    {
+      "id": "3",
+      "name": "Chu Thanh Quang",
+      "dob": "1984-05-23",
+      "gender": "Female",
+      "position": "Leader",
+      "department": "1"
+    },
+    {
+      "id": "4",
+      "name": "Trinh Tien Dung",
+      "dob": "1990-06-14",
+      "gender": "Male",
+      "position": "Developer",
+      "department": "2"
+    },
+    {
+      "id": "5",
+      "name": "Phan Thu Thao",
+      "dob": "1990-03-12",
+      "gender": "Female",
+      "position": "Tester",
+      "department": "1"
+    },
+    {
+      "id": "6",
+      "name": "Nguyen Xuan Quang",
+      "dob": "1987-01-19",
+      "gender": "Male",
+      "position": "Leader",
+      "department": "2"
+    },
+    {
+      "id": "7",
+      "name": "Trinh Thu Hang",
+      "dob": "2000-05-12",
+      "gender": "Female",
+      "position": "Developer",
+      "department": "3"
+    },
+    {
+      "id": "8",
+      "name": "Tran Hong Quan",
+      "dob": "1998-04-16",
+      "gender": "Male",
+      "position": "Leader",
+      "department": "3"
+    },
+    {
+      "id": "9",
+      "name": "Pham The Tung",
+      "dob": "1984-09-12",
+      "gender": "Male",
+      "position": "Manager",
+      "department": "1"
+    },
+    {
+      "id": "10",
+      "name": "Tran Manh Chien",
+      "dob": "1983-10-21",
+      "gender": "Male",
+      "position": "Manager",
+      "department": "2"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Project Alpha",
+      "description": "A major project for system integration.",
+      "start_date": "2023-01-01",
+      "end_date": "2024-01-01",
+      "department_id": "1",
+      "employee_ids": [
+        "3",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Project Beta",
+      "description": "A software development project.",
+      "start_date": "2023-06-01",
+      "end_date": "2024-06-01",
+      "department_id": "2",
+      "employee_ids": [
+        "6",
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Project Gamma",
+      "description": "An information assurance initiative.",
+      "start_date": "2023-09-01",
+      "end_date": "2024-09-01",
+      "department_id": "3",
+      "employee_ids": [
+        "8",
+        "7"
+      ]
+    }
+  ]
+}
