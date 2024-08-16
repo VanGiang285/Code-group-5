@@ -102,7 +102,7 @@ function Home() {
                         aria-label="Select department" 
                         onChange={handleDepartmentSelect} 
                         value={selectedDepartment}>
-                        <option value=''>All Departments</option>
+                        <option value='' disabled>All Departments</option>
                         {departments.map((d) => (
                             <option key={d.id} value={d.id}>{d.name}</option>
                         ))}

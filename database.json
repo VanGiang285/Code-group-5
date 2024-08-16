@@ -134,5 +134,33 @@
         "7"
       ]
     }
+  ],
+  "genders":[
+    {
+      "id":"1",
+      "name":"Male"
+    },
+    {
+      "id":"1",
+      "name":"Female"
+    },
+    {
+      "id":"1",
+      "name":"Other"
+    }
+  ],
+  "positions":[
+    {
+      "id":"1",
+      "name":"Manager"
+    },
+    {
+      "id":"2",
+      "name":"Leader"
+    },
+    {
+      "id":"3",
+      "name":"Developer"
+    }
   ]
 }
